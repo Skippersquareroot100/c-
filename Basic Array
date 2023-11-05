@@ -1,0 +1,13 @@
+//Array - collection of fixed sets of data
+
+int[] arr = new int[2];// reffrence type-heap// 2 is size
+string[] arr2 = new string[2];
+object[] arr3 = new object[4];
+
+arr[0] = 1;
+int[] arr5 = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+
+Array.Sort(arr5);
+Console.WriteLine(arr5.Average());
+Console.WriteLine(arr5.ToString());
