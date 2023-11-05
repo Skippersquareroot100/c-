@@ -1,0 +1,23 @@
+int bignum = 2134;
+long num = bignum;//implicite(compiler will do it for you
+double x = 999.00453;
+int a;
+a = (int)x;//type cast --explicit-- have done by your own
+Console.WriteLine(a);
+
+string value = "1234567890";
+int result ;
+
+if(int.TryParse(value, out result))
+{
+    Console.WriteLine(result);
+}
+else
+{
+    Console.WriteLine("Fail");
+}
+
+
+
+
+
