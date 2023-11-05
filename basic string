@@ -1,0 +1,30 @@
+//string
+
+using System.Text;
+
+string s="tres";
+
+string sPathVerbatim = @"c:pe
+
+
+
+
+
+
+mdz";
+
+string fname = "Maruf";
+string mname = "Hasan";
+string lname = "Anik";
+Console.WriteLine($"My name is {fname} {mname} {lname}");
+Console.WriteLine("My name is {0} {1} {2}",fname,mname,lname);
+
+//String builder
+//If you are performing thousands . exp- for loop with 1000 iteration
+
+
+var sb =new StringBuilder();
+var teststringbuilder=sb.Append(fname);
+var teststringbuilder1 = sb.Append(mname);
+//var teststringbuilder2 = sb.Append(lname);
+Console.WriteLine(sb);
